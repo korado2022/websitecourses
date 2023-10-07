@@ -25,7 +25,7 @@ SECRET_KEY = '&@l5&9=z02zcy4-gniiqupm_n6=4&rdtihs9_x3!vj7g^7&t&='
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -63,6 +63,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'mainapp.context_processors.example.simple_context_processor'
             ],
         },
     },
