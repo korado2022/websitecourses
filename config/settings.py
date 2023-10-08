@@ -65,6 +65,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'django.template.context_processors.media',
             ],
         },
     },
@@ -126,5 +127,8 @@ STATICFILES_DIRS = [
     '/var/www/static/',
 ]
 STATIC_ROOT = "/var/www/web-site-course.onrender.com/static/"
+
+MEDIA_URL = '/static/'
+MEDIA_ROOT = "/var/www/web-site-course.onrender.com/static/"
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
