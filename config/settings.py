@@ -125,5 +125,6 @@ STATICFILES_DIRS = [
     BASE_DIR / "static",
     '/var/www/static/',
 ]
+STATIC_ROOT = "/var/www/web-site-course.onrender.com/static/"
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
