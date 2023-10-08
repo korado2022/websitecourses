@@ -7,3 +7,5 @@ tzdata==2023.3
 # For production
 gunicorn
 psycopg2-binary
+whitenoise==6.2.0
+Brotli==1.0.9
