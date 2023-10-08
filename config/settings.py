@@ -124,11 +124,11 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     BASE_DIR / "static",
-    '/var/www/static/',
+    '/var/www/web-site-course.onrender.com/static/',
 ]
 STATIC_ROOT = "/var/www/web-site-course.onrender.com/static/"
 
-MEDIA_URL = '/static/'
-MEDIA_ROOT = "/var/www/web-site-course.onrender.com/static/"
+MEDIA_URL = '/media/'
+MEDIA_ROOT = "/var/www/web-site-course.onrender.com/media/"
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
